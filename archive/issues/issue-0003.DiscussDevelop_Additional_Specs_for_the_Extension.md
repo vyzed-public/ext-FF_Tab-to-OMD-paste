@@ -1,4 +1,4 @@
-# #3: Discuss/Develop: Specs for the Extension
+# #3: Discuss/Develop: Additional Specs for the Extension
 
 **State:** OPEN
 **Author:** vyzed
