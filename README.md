@@ -24,12 +24,11 @@ The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting_:
 
 > Let's try it because the original version is **[some of the ugliest fucking JavaScript](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/DONT_DO_THIS_bookmarklet_monster.js)** I've ever seen in my life.
 
-But -- we're through all that now (_[we got better](https://media.tenor.com/43jAja9HUwIAAAAM/monty-python.gif)_), and the code ended up properly factored.
-
 * [Archive: Bookmarklet for Markdown Clipping](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md)
 
+But -- we're through all that now (_[we got better](https://media.tenor.com/43jAja9HUwIAAAAM/monty-python.gif)_), and the code ended up properly factored.
 
-TL;DR? There's a README "semi-spec" for the original bookmarklet here: 
+#### TL;DR? There's a README "semi-spec" for the original bookmarklet here: 
 * [README-clipboard-variant.md](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/README-clipboard-variant.md)
 
 ---
