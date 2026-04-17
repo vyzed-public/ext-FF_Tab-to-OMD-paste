@@ -10,7 +10,7 @@ Now we'll turn that bookmarklet into a custom personal browser extension (for Fi
 
 The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting_:
 
-> Let's try it because the original version is some of the ugliest fucking JavaScript I've ever seen in my life.
+> Let's try it because the original version is **[some of the ugliest fucking JavaScript](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/DONT_DO_THIS_bookmarklet_monster.js)** I've ever seen in my life.
 
 * [Archive: Bookmarklet for Markdown Clipping](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md)
 
