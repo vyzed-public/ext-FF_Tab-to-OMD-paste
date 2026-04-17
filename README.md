@@ -8,7 +8,7 @@ Now we'll turn that bookmarklet into a custom personal browser extension (for Fi
 
 ## Basic Functionality:
 
-If a user is on a tab, and they click the extennsion button;
+If a user is on a tab, and they click the extension button;
 
 ...it will perform the basic functionaloty of the original bookmerklet, and:
 1. Generate a clickable link in markdown, with the title of the active tab, subject to length limitations (discussed below).
