@@ -8,7 +8,7 @@ Now we'll turn that bookmarklet into a custom personal browser extension (for Fi
 
 ## Background
 
-The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting:
+The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting_:
 
 > Let's try it because the original version is some of the ugliest fucking JavaScript I've ever seen in my life.
 
