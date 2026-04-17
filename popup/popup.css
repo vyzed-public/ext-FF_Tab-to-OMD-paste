@@ -1,0 +1,117 @@
+/* popup.css
+ *
+ * Styles for the popup UI.
+ * Extracted verbatim from the bookmarklet's inline <style> block.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+    min-width: 400px;
+}
+
+.container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+    max-width: 560px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #555;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #5778d8;
+    box-shadow: 0 0 0 3px rgba(87, 120, 216, .1);
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+button {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.btn-copy {
+    background: #27ae60;
+    color: #fff;
+}
+
+.btn-copy:hover {
+    background: #219a52;
+}
+
+.btn-cancel {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.btn-cancel:hover {
+    background: #d0d0d0;
+}
+
+.note {
+    font-size: 12px;
+    color: #999;
+    margin-top: 8px;
+}
+
+.success-flash {
+    animation: flashGreen .6s ease-out;
+}
+
+@keyframes flashGreen {
+    0%   { background: #d4edda; }
+    100% { background: #fff; }
+}

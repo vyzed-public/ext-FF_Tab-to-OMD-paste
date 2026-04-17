@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Clip to Markdown</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="container" id="mainContainer">
+  <h1>&#x1F4CB; Clip to Markdown</h1>
+
+  <div class="form-group">
+    <label for="titleInput">Title</label>
+    <input type="text" id="titleInput" autofocus>
+  </div>
+
+  <div class="form-group">
+    <label for="urlInput">URL</label>
+    <input type="url" id="urlInput" readonly>
+  </div>
+
+  <div class="form-group" id="selectionGroup" style="display:none">
+    <label for="selectionInput">Selection</label>
+    <textarea id="selectionInput"></textarea>
+    <div class="note">Edit or trim as needed. Appears above the link in the copied markdown.</div>
+  </div>
+
+  <div class="button-group">
+    <button type="button" class="btn-copy" id="btnCopy">Copy to Clipboard</button>
+    <button type="button" class="btn-cancel" id="btnCancel">Cancel</button>
+  </div>
+</div>
+
+<script src="markdown.js"></script>
+<script src="clipboard.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
