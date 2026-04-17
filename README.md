@@ -8,13 +8,13 @@ Now we'll turn that bookmarklet into a custom personal browser extension (for Fi
 
 ## Basic Functionality:
 
-* If a user is on a tab, and they click the extennsion button;
-* ...it will perform the basic functionaloty of the original bookmerklet, and:
-  1. Generate a clickable link in markdown, with the title of the active tab, subject to length limitations (discussed below).
-  2. If any text on the tab page has been selected by the user, we should generate an initial markdown section, using the selected text, followed by a new line with the clickable link in markdown, with the title of the active tab, subject to length limitations (discussed below).
-  3. We want to avoid subtle bugs that can arise from implicit URL encodin, which can generate a surprising amount of extraneous characters that end up exceeding safe string limits.  This behavior hs already been encoded into the bookmarklet. 
-  4. We want to place the generated text into the system buffer, ready to be pasted into any markdown editor.
+If a user is on a tab, and they click the extennsion button;
 
+...it will perform the basic functionaloty of the original bookmerklet, and:
+1. Generate a clickable link in markdown, with the title of the active tab, subject to length limitations (discussed below).
+2. If any text on the tab page has been selected by the user, we should generate an initial markdown section, using the selected text, followed by a new line with the clickable link in markdown, with the title of the active tab, subject to length limitations (discussed below).
+3. We want to avoid subtle bugs that can arise from implicit URL encodin, which can generate a surprising amount of extraneous characters that end up exceeding safe string limits.  This behavior hs already been encoded into the bookmarklet. 
+4. We want to place the generated text into the system buffer, ready to be pasted into any markdown editor.
 
 ---
 
