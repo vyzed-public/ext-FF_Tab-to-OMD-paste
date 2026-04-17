@@ -8,11 +8,15 @@ Now we'll turn that bookmarklet into a custom personal browser extension (for Fi
 
 ## Background
 
-We archived our "vibe coding" design & build/debug session here: 
-* [Archive: In-Repo Issue Tracking via GitHub Actions](https://github.com/vyzed-public/optimize_GitHub_with-archived_issues-comments/blob/main/archive/chats/archive_issues-and-comments_in-repo.md)
+The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting:
+
+> Let's try it because the original version is some of the ugliest fucking JavaScript I've ever seen in my life.
+
+* [Archive: Bookmarklet for Markdown Clipping](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md)
+
 
 TL;DR? There's a README "semi-spec" for the original bookmarklet here: 
-* [README-clipboard-variant.md]([https://github.com/vyzed-public/optimize_GitHub_with-archived_issues-comments/blob/main/archive/chats/summary.issue-tracking_IN-repo_via-dir_docs_issues.md)](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/README-clipboard-variant.md)
+* [README-clipboard-variant.md](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/README-clipboard-variant.md)
 
 
 ## Installation:
