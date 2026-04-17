@@ -30,6 +30,7 @@ The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting_:
 TL;DR? There's a README "semi-spec" for the original bookmarklet here: 
 * [README-clipboard-variant.md](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/README-clipboard-variant.md)
 
+---
 
 ## Installation:
 
