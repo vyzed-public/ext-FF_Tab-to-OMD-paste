@@ -1,0 +1,1 @@
+/home/dpc/my/files/local/lfs.00-Scratch/builds/from.repos/on.github/vyzed-public/ext-FF_Tab-to-OMD-paste/original.bookmarklets/DONT_DO_THIS_bookmarklet_monster.js
