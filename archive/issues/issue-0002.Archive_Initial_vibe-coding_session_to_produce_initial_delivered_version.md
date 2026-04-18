@@ -7,7 +7,7 @@
 
 ---
 
-### Here's [our initial '"vibe-coding" session]()...
+### Here's [our initial '"vibe-coding" session](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md)...
 
 ...which we produced with the help of this awesome prompt: 
 * [prompt_archive-this-conversation.md](https://github.com/vyzed-public/optimize_GitHub_with-archived_issues-comments/blob/main/archive/chats/prompt_archive-this-conversation.md)
