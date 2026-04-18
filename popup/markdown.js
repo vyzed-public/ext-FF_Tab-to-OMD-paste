@@ -10,24 +10,20 @@ function escBrackets(str) {
 }
 
 /*
- * Format A - Blockquote + Link:
- *   > selected text
- *
- *   [Title](url)
- *
- * Format B - Plain + Link (current):
- *   selected text
- *
- *   [Title](url)
- *
  * Format C - Em-Dash Attribution:
- *   selected text
- *   — [Title](url)
+ *
+ *   With selection:
+ *     selected text
+ *     — [Title](url)
+ *
+ *   Without selection (? placeholder prompts user to add context):
+ *     ?
+ *     — [Title](url)
  */
 function buildMarkdown(title, url, selection) {
     var clean = title.trim();
     if (!clean) clean = 'Untitled';
-    var link = '[' + escBrackets(clean) + '](' + url + ')';
-    if (!selection) return link;
-    return selection + '\n\n' + link;
+    var link = '— [' + escBrackets(clean) + '](' + url + ')';
+    var text = selection ? selection : '?';
+    return text + '\n' + link;
 }
