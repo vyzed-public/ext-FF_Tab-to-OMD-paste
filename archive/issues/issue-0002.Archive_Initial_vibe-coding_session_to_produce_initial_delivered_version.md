@@ -7,7 +7,9 @@
 
 ---
 
-### Here's our initial '"vibe-coding" session: [Archive: Bookmarklet for Markdown Clipping](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md)...
+### Here are our '"vibe-coding" sessions: 
+* First we created a bookmarklet, [Archive: Bookmarklet for Markdown Clipping](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md)...
+* Next, we turned the bookmarklet into an extension:
 
 ...which we produced with the help of this awesome prompt: 
 * [prompt_archive-this-conversation.md](https://github.com/vyzed-public/optimize_GitHub_with-archived_issues-comments/blob/main/archive/chats/prompt_archive-this-conversation.md)
