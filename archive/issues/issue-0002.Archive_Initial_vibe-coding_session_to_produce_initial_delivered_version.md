@@ -22,8 +22,8 @@
 1. Download the prompt file, and upload it to the Web UI; 
 2. Place this prompt at or near the **end** of the conversation you want to archive.
 ```
-Archive this conversation per the uploaded prompt, 
-using a BASENAME spec of: `archive_my-super-cool-topic`
+Archive this conversation per the uploaded prompt;
+using a BASENAME spec of: `archive_my-super-cool-topic.
 ```
 
 #### Method 2: The Cool-Kid (or... lazy-ass, errrr. I mean: _efficient_) approach:
