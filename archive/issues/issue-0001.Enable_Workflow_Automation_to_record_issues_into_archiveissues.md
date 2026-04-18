@@ -1,8 +1,9 @@
 # #1: Enable: Workflow Automation to record issues into archive/issues
 
-**State:** OPEN
+**State:** CLOSED
 **Author:** vyzed
 **Created:** 2026-04-16T23:02:00Z
+**Closed:** 2026-04-18T05:14:17Z
 
 ---
 
