@@ -33,6 +33,11 @@ But -- we're through all that now (_[we got better](https://media.tenor.com/43jA
 
 ---
 
+## How Tos
+
+Useful SOPs can be pulled straight off the (now) [Closed Issues List](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/edit/issues?q=is%3Aissue%20state%3Aclosed%20sort%3Acreated-asc)
+
+---
 ## Installation:
 
 ### For Development/Debugging:
