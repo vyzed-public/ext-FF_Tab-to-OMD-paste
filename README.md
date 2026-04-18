@@ -3,7 +3,7 @@ Browser extension (for Firefox) to edit & bookmark Tabs into pasteable (Obsidian
 
 We previously used AI (Claude Opus 4.6) to ["vibe-code" a bookmarklet](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md) to select (& edit) tab titles and generate bookmarks in Obsidian-style markdown (OMD), storing the OMD content in the system clipboard buffer, ready for pasting into an OMD (or any markdown) document.
 
-Now we'll turn that bookmarklet into a custom personal browser extension (for Firefox).
+Now we'll turn that bookmarklet into a custom personal browser extension (for Firefox), with the help, once again, of Claude Opus 4.6.
 
 
 ## Basic Functionality:
