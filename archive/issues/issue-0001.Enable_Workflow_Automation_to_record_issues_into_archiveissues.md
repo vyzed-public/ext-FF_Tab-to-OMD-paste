@@ -22,4 +22,4 @@
 
 #### Results:
 
-Behold the marvel and glory of AI-rendered advice in our shiny new: [sync-issues.yml](https://github.com/vyzed-public/optimize_GitHub_with-archived_issues-comments/blob/main/.github/workflows/sync-issues.yml)
+Behold the marvel and glory of AI-rendered advice in our shiny new: [sync-issues.yml](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/.github/workflows/synch-issues.ymll)
