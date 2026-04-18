@@ -1,4 +1,4 @@
-# #1: Enable: Workflow Automation to record issues into docs/issues
+# #1: Enable: Workflow Automation to record issues into archive/issues
 
 **State:** OPEN
 **Author:** vyzed
