@@ -22,11 +22,13 @@ If a user is on a tab, and they click the extension button;
 guided
 The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting_:
 
-Claude is... great, but he also sometimes needs (CS-guided) discipline, becauuse:
+Vibe coding with Claude Opus 4.6 is... great, but he also sometimes needs (CS-guided) discipline, _e.g._:
 
-> Let's try it because the original version is **[some of the ugliest fucking JavaScript](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/DONT_DO_THIS_bookmarklet_monster.js)** I've ever seen in my life.
+> Let's try [a refactoring] because the original version is **[some of the ugliest fucking JavaScript](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/DONT_DO_THIS_bookmarklet_monster.js)** I've ever seen in my life.
 
 * [Archive: Bookmarklet for Markdown Clipping](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_bookmarklet-for-markdown-clipping.md)
+
+I shudder to think of what might be getting released by folks without CS backgrounds.
 
 But -- we're through all that now (_[we got better](https://media.tenor.com/43jAja9HUwIAAAAM/monty-python.gif)_), and the code ended up properly factored.
 
