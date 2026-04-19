@@ -1,4 +1,4 @@
-# #4: Package: as a permanent Private Extension through AMO
+# #4: Collect: Info on existing related browser extension projects
 
 **State:** OPEN
 **Author:** vyzed
