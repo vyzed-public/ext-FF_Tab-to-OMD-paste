@@ -19,7 +19,7 @@ If a user is on a tab, and they click the extension button;
 ---
 
 ## Background
-guided
+
 The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting_:
 
 Vibe coding with Claude Opus 4.6 is... great, but he also sometimes needs (CS-guided) discipline, _e.g._:
