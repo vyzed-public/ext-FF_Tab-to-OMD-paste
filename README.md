@@ -19,8 +19,10 @@ If a user is on a tab, and they click the extension button;
 ---
 
 ## Background
-
+guided
 The first attempts at _"vibe-coding"_ the bookmarklet were... _interesting_:
+
+Claude is... great, but he also sometimes needs (CS-guided) discipline, becauuse:
 
 > Let's try it because the original version is **[some of the ugliest fucking JavaScript](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/original.bookmarklets/DONT_DO_THIS_bookmarklet_monster.js)** I've ever seen in my life.
 
