@@ -321,8 +321,3 @@ https://github.com/vyzed-public/optimize_GitHub_with-archived_issues-comments/bl
 
 ...please archive this conversation per the spec in the prompt.
 
-## Assistant
-
-*[Could not access the prompt file due to GitHub robots.txt blocking and API domain restrictions. Found the archive spec from a previous conversation via conversation_search. Built the archive from memory of the spec.]*
-
-*[This document.]*
