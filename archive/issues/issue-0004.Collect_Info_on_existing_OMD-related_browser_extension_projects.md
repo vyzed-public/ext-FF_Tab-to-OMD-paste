@@ -6,9 +6,6 @@
 
 ---
 
-# Collect: Info on existing related browser extension projects
-
-
 Searches found two existing related projects to use as benchmarks:
 - One is a published Firefox add-on (by [rom100main](https://addons.mozilla.org/en-US/firefox/user/13464738/))
   - Firefox add-on: https://addons.mozilla.org/en-US/firefox/addon/obsidian-bookmark/
