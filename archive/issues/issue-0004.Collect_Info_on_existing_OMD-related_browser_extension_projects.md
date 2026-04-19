@@ -1,4 +1,4 @@
-# #4: Collect: Info on existing related browser extension projects
+# #4: Collect: Info on existing OMD-related browser extension projects
 
 **State:** OPEN
 **Author:** vyzed
