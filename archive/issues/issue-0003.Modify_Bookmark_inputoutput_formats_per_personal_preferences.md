@@ -229,22 +229,80 @@ The change is still just `buildMarkdown()` in `popup/markdown.js`. Ready when yo
 
 ### Me:
 
-I'm thinking I want to rework this user dialogue.
-Now that I've been working with this, I can optimize my own personal workflow.
+I want to make another modification to the output.
 
-First I want the selection to go on top.  That's the purpose of this tool.
-Next I want it to be labeled: Selection/Purpose.
-And if no selection has been made, 
-I want it to default to the question mark convention that we've adopted.
+What I want now is for the markdown to be inserted as a bullet point. 
+But then to also have a new line below it.
 
-This is going to prompt me to think about why I'm saving this bookmark.
+This helps me insert bookmarks easier, 
+...because it keeps me from inserting on top of the last bookmark I just pasted.
 
-We can also relabel "Title" to say: Title (from tab)".
+Don't do anything yet, I want to discuss this first.
 
-Why don't you mock that up and display it to me?
-Don't do anything yet. We're in design mode.
+### Claude:
 
-### Claude: 
+So the output would become:
+
+**With selection:**
+```markdown
+- Selected text here.
+— [Page Title](https://example.com)
+
+```
+
+**Without selection:**
+```markdown
+- ?
+— [Page Title](https://example.com)
+
+```
+
+The `- ` prefix goes on the first line only, and there's a trailing `\n` after the link line to create that blank line buffer.
+
+Is that what you're after, or did you want the em-dash line to also be indented under the bullet as part of the same list item?
+
+
+### Me:
+
+More like this, actually (I'll copy/paste something I like from Obsidian):
+
+
+```
+- How to implement LLM-Wiki with opencode and llama.cpp, all tricks included
+  — [LLM-wiki local & local LLM: part 2 | by Fabio Matricardi | Artificial INTEL-ligence Playground | Apr, 2026 | Medium](https://medium.com/artificial-intel-ligence-playground/llm-wiki-local-locall-llm-part-2-88ecfa2cf6c2)
+
+```
+
+
+...with the em-dash [page title](URL) offset to the right
+(I don't know if "indented" is the right term here) 
+to match the text alignment of the text of the line above it.
+
+### Claude:
+
+Got it — the em-dash line is indented with two spaces so it aligns under the bullet text, not under the `- ` marker. That's standard markdown list continuation.
+
+So the output becomes:
+
+**With selection:**
+```
+- Selected text here.
+  — [Page Title](https://example.com)
+
+```
+
+**Without selection:**
+```
+- ?
+  — [Page Title](https://example.com)
+
+```
+
+The structure is: `'- ' + text + '\n  — [' + title + '](' + url + ')\n'`
+
+That's `- `, text, `\n`, two spaces, em-dash link, `\n` (trailing blank line).
+
+The change is still just `buildMarkdown()` in `popup/markdown.js`. Ready when you are.
 
 
 
