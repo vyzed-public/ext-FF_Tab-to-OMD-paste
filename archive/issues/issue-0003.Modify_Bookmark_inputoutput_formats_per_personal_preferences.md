@@ -11,7 +11,25 @@ We built most of these changes in the chat where we converted the bookmarklet in
 ### Picking up from this previous chat: 
 * [Bookmarklet into Extension: ext-FF_Tab-to-OMD-paste (session 1)](https://claude.ai/chat/29b1c633-6071-4db9-ab66-883915c16fcf)
 
-...but after  a bit, we realized we should move into a new set of issues (and new chat as well):
+...but after  a bit, we realized we were drifting into a new set of behaviors/features: 
+
+> _I'm thinking I want to rework this user dialogue._
+> _Now that I've been working with this, I can optimize my own personal workflow._
+
+> _First I want the selection to go on top. That's the purpose of this tool._
+> _Next I want it to be labeled: Selection/Purpose._
+> _And if no selection has been made,_
+> _I want it to default to the question mark convention that we've adopted._
+
+> _This is going to prompt me to think about why I'm saving this bookmark._
+
+> _We can also relabel "Title" to say: Title (from tab)"._
+
+> _Why don't you mock that up and display it to me?_
+> _Don't do anything yet. We're in design mode._
+
+
+... SO -- we should move into a new set of issues (and new chat as well):
 
 * New chat (Opus 4.6) here: [Dev: ext-FF_Tab-to-OMD-paste (additional features)](https://claude.ai/chat/78fa72d7-664d-4c78-95c3-3332a72fedce) 
 * Reflected in New Issue: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
@@ -23,20 +41,7 @@ But, FWIW, here's a record (below) of what we _did_ do...
 
 #### Where we did... _"mo' schtuffz"_, like this: 
 
-> 'm thinking I want to rework this user dialogue.
-> Now that I've been working with this, I can optimize my own personal workflow.
 
-> First I want the selection to go on top. That's the purpose of this tool.
-> Next I want it to be labeled: Selection/Purpose.
-> And if no selection has been made,
-> I want it to default to the question mark convention that we've adopted.
-
-> This is going to prompt me to think about why I'm saving this bookmark.
-
-> We can also relabel "Title" to say: Title (from tab)".
-
-> Why don't you mock that up and display it to me?
-> Don't do anything yet. We're in design mode.
 
 
 
