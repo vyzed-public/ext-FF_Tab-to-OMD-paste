@@ -6,11 +6,19 @@
 
 ---
 
-We ran most of these changes in the 
-
-#### ...We'll run a new chat (Opus 4.6) here: [Dev: ext-FF_Tab-to-OMD-paste (additional features)](https://claude.ai/chat/78fa72d7-664d-4c78-95c3-3332a72fedce) 
+We built most of these changes in the chat where we converted the bookmarklet into an extension:
 
 ### Picking up from this previous chat: [Bookmarklet into Extension: ext-FF_Tab-to-OMD-paste (session 1)](https://claude.ai/chat/29b1c633-6071-4db9-ab66-883915c16fcf)
+
+...but after  a bit, we realized we should move into a new set of issues (and new chat as well):
+
+* New chat (Opus 4.6) here: [Dev: ext-FF_Tab-to-OMD-paste (additional features)](https://claude.ai/chat/78fa72d7-664d-4c78-95c3-3332a72fedce) 
+* Reflected in New Issue: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
+
+But, FWIW, here's a record (below) of what we _did_ do...
+
+--- 
+
 
 #### Where we did... _"mo' schtuffz"_, like this: 
 
