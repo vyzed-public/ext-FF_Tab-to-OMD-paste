@@ -1,8 +1,9 @@
 # #4: Collect: Info on existing OMD-related browser extension projects
 
-**State:** OPEN
+**State:** CLOSED
 **Author:** vyzed
 **Created:** 2026-04-18T22:42:20Z
+**Closed:** 2026-04-23T05:42:09Z
 
 ---
 
