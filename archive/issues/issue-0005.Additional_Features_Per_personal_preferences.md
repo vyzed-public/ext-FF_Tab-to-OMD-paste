@@ -6,7 +6,8 @@
 
 ---
 
-### Picking up from this previous chat: [Bookmarklet into Extension: ext-FF_Tab-to-OMD-paste (session 1)](https://claude.ai/chat/29b1c633-6071-4db9-ab66-883915c16fcf)
+### Picking up from this previous chat: 
+* [Bookmarklet into Extension: ext-FF_Tab-to-OMD-paste (session 1)](https://claude.ai/chat/29b1c633-6071-4db9-ab66-883915c16fcf)
 
 #### Where we did... _"mo' schtuffz"_, like this: 
 
