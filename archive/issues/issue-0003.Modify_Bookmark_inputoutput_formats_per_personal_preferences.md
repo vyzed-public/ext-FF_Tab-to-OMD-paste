@@ -130,7 +130,7 @@ Do you know which one they are and what the differences are?
 
 ### Claude: 
 
-In Obsidian:
+#### In Obsidian:
 
 **Return** gives you a paragraph break — it inserts a blank line between blocks in the rendered output. In the raw markdown, it's two newlines (`\n\n`), which markdown interprets as a new paragraph.
 
