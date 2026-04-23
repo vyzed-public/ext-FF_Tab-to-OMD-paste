@@ -8,7 +8,6 @@
 
 We built out _most_ of these changes in the chat where we converted the bookmarklet into an extension:
 
-### Picking up from this previous chat: 
 * [Bookmarklet into Extension: ext-FF_Tab-to-OMD-paste (session 1)](https://claude.ai/chat/29b1c633-6071-4db9-ab66-883915c16fcf)
 
 ...but after  a bit, we realized we were drifting into a new set of behaviors/features: 
