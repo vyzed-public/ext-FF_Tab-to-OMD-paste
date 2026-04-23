@@ -1,4 +1,4 @@
-# #5: Feature(s): Per personal preferences
+# #5: Additional Feature(s): Per personal preferences
 
 **State:** OPEN
 **Author:** vyzed
