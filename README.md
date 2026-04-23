@@ -46,4 +46,4 @@ Useful SOPs can be pulled straight off the (now) [Closed Issues List](https://gi
 
 ### For Development/Debugging:
 
-Use Firefox Internal URI:  `about:debugging#/runtime/this-firefox` to `[Load Temporary Add-On...]`
+Use Firefox Internal URI:  about:debugging#/runtime/this-firefox to `[Load Temporary Add-On...]`
