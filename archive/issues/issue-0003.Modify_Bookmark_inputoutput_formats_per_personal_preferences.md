@@ -247,3 +247,25 @@ Don't do anything yet. We're in design mode.
 ### Claude: 
 
 
+
+### vyzed — 2026-04-23T20:51:15Z
+
+### Me:
+
+I'm thinking I want to rework this user dialogue.
+Now that I've been working with this, I can optimize my own personal workflow.
+
+First I want the selection to go on top.  That's the purpose of this tool.
+Next I want it to be labeled: Selection/Purpose.
+And if no selection has been made, 
+I want it to default to the question mark convention that we've adopted.
+
+This is going to prompt me to think about why I'm saving this bookmark.
+
+We can also relabel "Title" to say: Title (from tab)".
+
+Why don't you mock that up and display it to me?
+Don't do anything yet. We're in design mode.
+
+
+
