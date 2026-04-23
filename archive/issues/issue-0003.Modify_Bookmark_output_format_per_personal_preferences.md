@@ -1,0 +1,67 @@
+# #3: Modify: Bookmark output format per personal preferences
+
+**State:** OPEN
+**Author:** vyzed
+**Created:** 2026-04-17T01:13:09Z
+
+---
+
+### Me:
+Now ... I want to make a change in the style of the markdown content.
+
+Confirm that you can access the spec document: `README-clipboard-variant.md`
+
+In the section: `Output Format Options`
+We have a spec for: `Format C — Em-Dash Attribution`
+
+Can you modify the extension to that spec?
+
+Don't do it yet. Let's coordinate first.
+
+### Claude:
+
+That's a nice UX touch — the `?` acts as a placeholder that prompts you to explain why you bookmarked it, and it's trivial to replace.
+
+So the two cases would be:
+
+**With selection:**
+```markdown
+Selected text here.
+— [Page Title](https://example.com)
+```
+
+**Without selection:**
+```markdown
+?
+— [Page Title](https://example.com)
+```
+
+Both cases use the em-dash attribution format. The only difference is whether the text above the link is the user's selection or the `?` placeholder.
+
+That means `buildMarkdown()` never returns a bare link anymore — it always returns something + `\n— ` + link. Does that look right, or did you want the `?` and em-dash on separate lines with a blank line between them like Format B had?
+
+---
+
+### Me:
+
+That looks right. No separate lines.  Are you putting a line feed or a new line at the end of the first line?  This will be important because we have already make another tool that takes these bookmarks and stuffs them back into the Firefox bookmark manager.  Meaning that we may need to make modifications to that tool as well.  Make sense?
+
+### Claude:
+
+Got it. So to summarize what I'll change:
+
+**One file changes:** `popup/markdown.js`
+
+**The `buildMarkdown()` function becomes:**
+- With selection: `selection + '\n— ' + link`
+- Without selection: `'?\n— ' + link`
+
+**Nothing else changes** — `escBrackets()`, `copyToClipboard()`, `popup.js`, the HTML, CSS, content script, manifest — all stay the same.
+
+And when we're done with dev/test cycles, we'll write a proper spec document capturing the final format contract. I'll keep track of our design decisions from this conversation for that.
+
+Ready when you are.
+
+---
+
+ 
