@@ -1,4 +1,4 @@
-# #3: Modify: Bookmark output format per personal preferences
+# #3: Modify: Bookmark input/output formats per personal preferences
 
 **State:** OPEN
 **Author:** vyzed
