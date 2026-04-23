@@ -112,34 +112,9 @@ Ready when you are.
 
 ### Me:
 
-In Obsidian, if you press return, it gives you one particular kind of character.
-If you press shift return, it gives you a different kind of character.
-I think one is a carriage return and one is a line feed.
-Do you know which one they are and what the differences are?
-
 ### Claude: 
 
-In Obsidian:
 
-**Return** gives you a paragraph break — it inserts a blank line between blocks in the rendered output. In the raw markdown, it's two newlines (`\n\n`), which markdown interprets as a new paragraph.
-
-**Shift+Return** gives you a soft line break — it stays within the same paragraph/block. In the raw markdown, it's either a single `\n` or it inserts two trailing spaces followed by `\n` (which is markdown's `<br>` syntax). The rendered output shows a new line without the paragraph spacing.
-
-Neither is actually a carriage return (`\r`) vs line feed (`\n`) distinction — that's a Windows vs Unix thing. Obsidian on Linux Mint will use `\n` for both. The real difference is paragraph break vs inline line break.
-
-Why do you ask — is this relevant to how the archive renders, or something else?
-
-### Me
-
-I want to make another modification to the output.
-
-What I want now is for the markdown to be inserted as a bullet point.
-But then to also have a new line below it.
-
-This helps me insert bookmarks easier, 
-...because it keeps me from inserting on top of the last bookmark I just pasted.
-
-Don't do anything yet, I want to discuss this first.
 
 
 
