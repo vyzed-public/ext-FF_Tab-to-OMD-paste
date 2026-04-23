@@ -10,20 +10,23 @@ function escBrackets(str) {
 }
 
 /*
- * Format C - Em-Dash Attribution:
+ * Obsidian Bullet + Em-Dash Attribution:
  *
  *   With selection:
- *     selected text
- *     — [Title](url)
+ *     - selected text
+ *       — [Title](url)
  *
  *   Without selection (? placeholder prompts user to add context):
- *     ?
- *     — [Title](url)
+ *     - ?
+ *       — [Title](url)
+ *
+ *   Two-space indent on the em-dash line aligns it under the bullet text.
+ *   Trailing newline creates a blank line buffer for easier sequential pasting.
  */
 function buildMarkdown(title, url, selection) {
     var clean = title.trim();
     if (!clean) clean = 'Untitled';
-    var link = '— [' + escBrackets(clean) + '](' + url + ')';
+    var link = '  — [' + escBrackets(clean) + '](' + url + ')';
     var text = selection ? selection : '?';
-    return text + '\n' + link;
+    return '- ' + text + '\n' + link + '\n';
 }

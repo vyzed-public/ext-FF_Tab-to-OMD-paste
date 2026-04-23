@@ -36,14 +36,13 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 selection = '';
             }
-            document.getElementById('selectionInput').value = selection;
-            if (selection) {
-                document.getElementById('selectionGroup').style.display = 'block';
-            }
+            /* Default to ? placeholder when no text was selected */
+            document.getElementById('selectionInput').value = selection || '?';
         }).catch(function (err) {
             /* Selection capture may fail on privileged pages (about:*, addons.mozilla.org).
-               That's fine — proceed without selection. */
+               That's fine — default to ? placeholder. */
             console.warn('Could not capture selection:', err.message);
+            document.getElementById('selectionInput').value = '?';
         });
     });
 
