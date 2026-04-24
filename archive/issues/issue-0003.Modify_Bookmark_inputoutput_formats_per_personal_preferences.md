@@ -31,7 +31,7 @@ We built out _most_ of these changes in the chat where we converted the bookmark
 
 * Reflected in these new issues: 
   * This project: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
-  * Project: [ext-FF_BMM-to-OMD-paste](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste)
+  * ...and in project: [ext-FF_BMM-to-OMD-paste](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste)
     * Issue: [Feature(s): Bookmark Extension Round-Trip Functionality](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste/issues/3)
 
 And this new chat (Opus 4.6): 
