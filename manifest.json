@@ -3,10 +3,14 @@
   "name": "Tab to OMD Paste",
   "version": "1.0.0",
   "description": "Clip the current tab's title, URL, and selected text into Obsidian-style Markdown, ready to paste.",
-  "icons": {
-    "48": "icons/icon-48.png",
-    "96": "icons/icon-96.png"
-  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bmm2omd@vyzed.net",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },  
   "permissions": [
     "activeTab",
     "clipboardWrite"
@@ -18,5 +22,9 @@
     },
     "default_title": "Tab-to-OMD Clip tab & text to (Obsidian) markdown",
     "default_popup": "popup/popup.html"
-  }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  }  
 }
