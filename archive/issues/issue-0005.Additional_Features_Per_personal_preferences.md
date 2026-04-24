@@ -42,4 +42,15 @@ To deal with this problem:
 > Observe that the formats have changed.
 > Understand that we don't want that.
 
+---
+
+* Reflected in these new issues: 
+  * This project: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
+  * ...and in project: [ext-FF_BMM-to-OMD-paste](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste)
+    * Issue: [Feature(s): Bookmark Extension Round-Trip Functionality](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste/issues/3)
+
+And this new chat (Opus 4.6): 
+* [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
+
+### But, FWIW, here's a record (below) of what we _did_ do on _this_ go-round...
 
