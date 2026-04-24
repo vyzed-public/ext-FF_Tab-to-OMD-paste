@@ -42,7 +42,19 @@ But -- we're through all that now (_[we got better](https://media.tenor.com/43jA
 Useful SOPs can be pulled straight off the (now) [Closed Issues List](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues?q=is%3Aissue%20state%3Aclosed%20sort%3Acreated-asc)
 
 ---
+
 ## Installation:
+
+### Post (Personal) Release via AMO
+
+Our extension was automatically screened and approved. 
+
+It is now available at https://addons.mozilla.org/developers/addon/3005268/versions.
+
+Since this was a personal submission, login may be required.  
+
+If so, then use your own development version and submit your own personal extension.
+Helpful Guidance: [guidance.AMO-submissions.errors-and-arcana.md](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste/blob/main/docs/guidance.AMO-submissions.errors-and-arcana.md)
 
 ### For Development/Debugging:
 
