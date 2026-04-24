@@ -45,7 +45,7 @@ Useful SOPs can be pulled straight off the (now) [Closed Issues List](https://gi
 
 ## Installation:
 
-### Post (Personal) Release via AMO
+### Post (personal) Release via AMO
 
 Our extension was automatically screened and approved. 
 
