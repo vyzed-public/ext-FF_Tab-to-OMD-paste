@@ -35,3 +35,12 @@ After some use of the bookmarking extention ecosystem, we realized we need to de
 ...so -- we packaged our findings into this spec doc:
 
 ### Spec: [spec.04a.bookmark-round-trip-format.md](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/specs/spec.04a.bookmark-round-trip-format.md)
+
+### And then...
+
+We made the mistake of not checking which model Claude was giving us and ended up using fucking Sonnet, 
+
+...which is pertty brain damage compared to Opus.
+
+But, FWIW, here is the archived chat:
+
