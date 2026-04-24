@@ -29,7 +29,16 @@
 
 #### ...We'll run a new chat (Opus 4.6) here:
 * [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
-* Reflected in New Issues: 
-  * Project: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
+
+To deal with this problem:
+
+> Let's look at these results from one cycle.
+
+> We used `Tab-to-OMD` to collect to three or four different bookmarks.
+> Then we used `OMD-to-BMM` to paste them into Firefox bookmark manager.
+> Then we used `BMM-to-OMD` to base them into Obsidian again.
+
+> Observe that the formats have changed.
+> Understand that we don't want that.
 
 
