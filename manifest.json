@@ -5,7 +5,7 @@
   "description": "Clip the current tab's title, URL, and selected text into Obsidian-style Markdown, ready to paste.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "bmm2omd@vyzed.net",
+      "id": "tab2omd@vyzed.net",
       "data_collection_permissions": {
         "required": ["none"]
       }
