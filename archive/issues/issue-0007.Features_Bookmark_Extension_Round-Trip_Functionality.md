@@ -1,0 +1,37 @@
+# #7: Feature(s): Bookmark Extension Round-Trip Functionality
+
+**State:** OPEN
+**Author:** vyzed
+**Created:** 2026-04-24T22:29:28Z
+
+---
+
+After some use of the bookmarking extention ecosystem, we realized we need to deal with this problem:
+
+> Let's look at these results from one cycle.
+
+> 1) We used `Tab-to-OMD` to collect to three or four different bookmarks.
+
+> 2) Then we used `OMD-to-BMM` to paste them into Firefox bookmark manager.
+
+> 3) Then we used `BMM-to-OMD` to base them into Obsidian again.
+
+> Observe that the formats have changed.
+
+> Understand that we don't want that.
+
+...which, after a bunch of extraneous chat & experiments, we concluded:
+
+> The chain of authority should be:
+
+> 1) `OMD-to-BMM` — works correctly, respects Firefox BMM structure, (especially separators), so don't touch it
+
+> 2) `Tab-to-OMD` — defines the canonical format (bullet + em-dash + 2-space indent)
+
+> 3) `BMM-to-OMD` — should be updated to output that same canonical format
+
+> So when `BMM-to-OMD` exports from Firefox back to Obsidian, instead of outputting 4-space indented child bullets for links, it should output 2-space indented em-dashes. That way the round-trip is format-stable.
+
+...so -- we packaged our findings into this spec doc:
+
+### Spec: [spec.04a.bookmark-round-trip-format.md](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/specs/spec.04a.bookmark-round-trip-format.md)
