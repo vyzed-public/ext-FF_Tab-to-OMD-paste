@@ -20,7 +20,9 @@ function escBrackets(str) {
  *     - ?
  *       — [Title](url)
  *
- *   Two-space indent on the em-dash line aligns it under the bullet text.
+ *   The em-dash signals "bookmark payload" to the ingestion tool (OMD-to-BMM),
+ *   distinguishing it from a child bullet which would create a subfolder.
+ *   Two-space indent aligns under the bullet text.
  *   Trailing newline creates a blank line buffer for easier sequential pasting.
  */
 function buildMarkdown(title, url, selection) {
