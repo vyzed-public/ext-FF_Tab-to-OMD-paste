@@ -42,5 +42,8 @@ We made the mistake of not checking which model Claude was giving us and ended u
 
 ...which is pertty brain damage compared to Opus.
 
-But, FWIW, here is the archived chat:
+But, FWIW, here is the _AMAZING_ archived chat:
 
+* [archive_round-trips_bookmark-extensions.images.md](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/blob/main/archive/chats/archive_round-trips_bookmark-extensions.md)
+
+I will admit it took me a little time and a lot of swearing at Claude to realize he was only running Sonnet instead of Opus. 
