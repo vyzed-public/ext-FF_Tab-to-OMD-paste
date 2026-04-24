@@ -27,6 +27,9 @@
 > Don't do anything yet. We're in design mode.
 
 
-#### ...We'll run a new chat (Opus 4.6) here: [Dev: ext-FF_Tab-to-OMD-paste (additional features)](https://claude.ai/chat/78fa72d7-664d-4c78-95c3-3332a72fedce) 
+#### ...We'll run a new chat (Opus 4.6) here:
+* [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
+* Reflected in New Issues: 
+  * Project: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
 
 
