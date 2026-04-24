@@ -26,11 +26,8 @@
 > Why don't you mock that up and display it to me?
 > Don't do anything yet. We're in design mode.
 
+#### We _**also**_ realized we wanted a new set of features:
 
-#### ...We'll run a new chat (Opus 4.6) here:
-* [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
-
-#### ...And a new feature in the associated project:
 To deal with this problem:
 
 > Let's look at these results from one cycle.
@@ -42,15 +39,14 @@ To deal with this problem:
 > Observe that the formats have changed.
 > Understand that we don't want that.
 
----
+...which we'll pick up development for in: 
+* Issue: [Feature(s): Bookmark Extension Round-Trip Functionality](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste/issues/3)
+   * ...in project: [ext-FF_BMM-to-OMD-paste](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste) 
 
-* Reflected in these new issues: 
-  * This project: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
-  * ...and in project: [ext-FF_BMM-to-OMD-paste](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste)
-    * Issue: [Feature(s): Bookmark Extension Round-Trip Functionality](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste/issues/3)
-
-And this new chat (Opus 4.6): 
+And also in this new chat (Opus 4.6): 
 * [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
+
+---
 
 ### But, FWIW, here's a record (below) of what we _did_ do on _this_ go-round...
 
