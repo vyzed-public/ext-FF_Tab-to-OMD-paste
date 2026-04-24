@@ -27,31 +27,15 @@ We built out _most_ of these changes in the chat where we converted the bookmark
 > _Why don't you mock that up and display it to me?_
 > _Don't do anything yet. We're in design mode._
 
-
 ... SO -- we should move into a new set of issues (and new chat as well):
 
 * New chat (Opus 4.6) here: [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
 * Reflected in New Issues: 
   * This project: [Additional Feature(s): Per personal preferences](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/5)
+  * Project: [ext-FF_BMM-to-OMD-paste](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste)
+    * Issue: [Feature(s): Bookmark Extension Round-Trip Functionality](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste/issues/3)
 
 But, FWIW, here's a record (below) of what we _did_ do...
-
---- 
-
-
-#### Where we did... _"mo' schtuffz"_, like this: 
-
-
-
-
-
-
-
-
-
-
-
- 
 
 ---
 
