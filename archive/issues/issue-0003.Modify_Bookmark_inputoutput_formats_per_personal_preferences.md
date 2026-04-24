@@ -37,7 +37,7 @@ We built out _most_ of these changes in the chat where we converted the bookmark
 And this new chat (Opus 4.6): 
 * [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
 
-But, FWIW, here's a record (below) of what we _did_ do...
+### But, FWIW, here's a record (below) of what we _did_ do on _this_ go-round...
 
 ---
 
