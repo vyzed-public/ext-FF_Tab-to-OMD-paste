@@ -1,8 +1,9 @@
 # #3: Modify: Bookmark input/output formats per personal preferences
 
-**State:** OPEN
+**State:** CLOSED
 **Author:** vyzed
 **Created:** 2026-04-17T01:13:09Z
+**Closed:** 2026-04-25T05:51:46Z
 
 ---
 
