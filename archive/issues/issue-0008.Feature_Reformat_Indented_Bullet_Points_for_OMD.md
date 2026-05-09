@@ -37,5 +37,3 @@ Where we INSTEAD use a standard OMD-flavored second level of indented bullet, to
    - In other words: 
      - If they use 2 spaces, we should use 2 spaces;
      - If they use 4 spaces, we should use 4 spaces.
-
-2. 
