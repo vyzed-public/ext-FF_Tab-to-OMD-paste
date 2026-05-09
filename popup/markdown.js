@@ -10,25 +10,24 @@ function escBrackets(str) {
 }
 
 /*
- * Obsidian Bullet + Em-Dash Attribution:
+ * Obsidian Nested Bullet Format:
  *
  *   With selection:
  *     - selected text
- *       — [Title](url)
+ *         - Tab: [Title](url)
  *
  *   Without selection (? placeholder prompts user to add context):
  *     - ?
- *       — [Title](url)
+ *         - Tab: [Title](url)
  *
- *   The em-dash signals "bookmark payload" to the ingestion tool (OMD-to-BMM),
- *   distinguishing it from a child bullet which would create a subfolder.
- *   Two-space indent aligns under the bullet text.
+ *   Uses standard OMD nested bullet format with 4-space indent.
+ *   The "Tab:" prefix identifies the bookmark source.
  *   Trailing newline creates a blank line buffer for easier sequential pasting.
  */
 function buildMarkdown(title, url, selection) {
     var clean = title.trim();
     if (!clean) clean = 'Untitled';
-    var link = '  — [' + escBrackets(clean) + '](' + url + ')';
+    var link = '    - Tab: [' + escBrackets(clean) + '](' + url + ')';
     var text = selection ? selection : '?';
-    return '- ' + text + '\n' + link + '\n';
+    return '- ' + text + ' ^N\n' + link + '\n';
 }
