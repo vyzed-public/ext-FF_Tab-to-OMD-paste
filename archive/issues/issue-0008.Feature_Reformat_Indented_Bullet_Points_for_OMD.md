@@ -28,5 +28,5 @@ To yield _THIS_:
 - Survey: Anthropic's MCP Mastery and Claude Code courses ^N
   - Tag: [Anthropic has opened up its entire educational curriculum for free](https://www.reddit.com/r/ClaudeAI/comments/1rh92yp/anthropic_has_opened_up_its_entire_educational/)
 
-...which is immediately ready for our OMD cross-referencing workflow
+...which is immediately ready for our OMD "cross-referencing via Block-IDs" workflow.
 
