@@ -30,8 +30,12 @@ Where we INSTEAD use a standard OMD-flavored second level of indented bullet, to
 
 #### ...which is _immediately_ ready for our OMD "cross-referencing via Block-IDs" workflow.
 
-### Important Note:  We should comply with OMD standard specs for defining indented bullets!
-In other words: 
-* If they use 2 spaces, we should use 2 spaces;
-* If they use 4 spaces, we should use 4 spaces.
+### Important Notes
 
+1. We should use dashes `-` for our bullets, because OMD makes use of asterisks `*` for bolding, italics, etc.
+2. We should comply with OMD standard specs for defining indented bullets!
+   - In other words: 
+     - If they use 2 spaces, we should use 2 spaces;
+     - If they use 4 spaces, we should use 4 spaces.
+
+2. 
