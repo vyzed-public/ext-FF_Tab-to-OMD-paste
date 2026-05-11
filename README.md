@@ -90,7 +90,7 @@ A commonly repeating feature-branch round-trip:
 8. `git status`
 9. `git push origin  # Unless you've been sloppy, and you need a...`
 10. `git pull --rebase`
-11. git push origin  # ...because NOW you're all clean & tidy`
+11. `git push origin  # ...because NOW you're all clean & tidy`
 12. `git pull && git status # I'm a GOOD boy!`
 
 Some frequent tag-flavored (as opposed to branch/merge) ops:
