@@ -81,7 +81,7 @@ Synch da local stuffz:
 
 A commonly repeating feature-branch round-trip:
 1. `git pull`
-2. `git checkout -b fb-implement_issue-0XYZ # Tie the branch to a documented GSD issue
+2. `git checkout -b fb-implement_issue-0XYZ # Tie the branch to a documented GSD issue`
 3. `git add . # ...or W-dafuk I workded on.`
 4. `git commit -m "Implement issue #0XYZ: My anazing (and TESTED, right?) feature."
 5. `git checkout main`
