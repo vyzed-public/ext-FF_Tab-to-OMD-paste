@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tab to OMD Paste",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Clip the current tab's title, URL, and selected text into Obsidian-style Markdown, ready to paste.",
   "browser_specific_settings": {
     "gecko": {
