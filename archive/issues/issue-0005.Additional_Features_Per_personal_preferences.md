@@ -39,11 +39,11 @@ To deal with this problem:
 > Observe that the formats have changed.
 > Understand that we don't want that.
 
-...which we'll pick up development for in: 
+### ...which we'll pick up development for in: 
 * Issue: [Feature(s): Bookmark Extension Round-Trip Functionality](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste/issues/3)
    * ...in project: [ext-FF_BMM-to-OMD-paste](https://github.com/vyzed-public/ext-FF_BMM-to-OMD-paste) 
 
-And also in this new chat (Opus 4.6): 
+## And also in this new chat (Opus 4.6): 
 * [Dev: Bookmark Extension Round-Trip Functionality](https://claude.ai/chat/f6f16234-2571-46fc-b695-7f180b13c959) 
 
 ---
