@@ -1,8 +1,9 @@
 # #8: Feature: Reformat Indented Bullet Points for OMD
 
-**State:** OPEN
+**State:** CLOSED
 **Author:** vyzed
 **Created:** 2026-05-09T22:19:07Z
+**Closed:** 2026-05-13T04:39:10Z
 
 ---
 
