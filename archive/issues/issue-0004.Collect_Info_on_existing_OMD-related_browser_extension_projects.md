@@ -18,6 +18,8 @@ Note that the projects have **very similar names and descriptions**, which is wh
 
 Especially because they both solve the exact same Firefox→Obsidian bookmark workflow
 
+We'll add ZIPs of these repos into [our collection of benchmark repos](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/tree/main/benchmark.repo-zips).
+
 ---
 
 ### Query:
