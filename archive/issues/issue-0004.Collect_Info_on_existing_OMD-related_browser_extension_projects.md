@@ -20,6 +20,9 @@ Especially because they both solve the exact same Firefox→Obsidian bookmark wo
 
 To avoid link rot, we'll add ZIPs of these repos into [our collection of benchmark repos](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/tree/main/benchmark.repo-zips).
 
+Note: [Zudel's project](https://github.com/patrikzudel/firefox-obsidian-bookmark) has an interesting architecture whereby it leverages existing functionality from another Obsidian Plugin: [obsidian-advanced-uri](https://github.com/Vinzent03/obsidian-advanced-uri).  We'll carry on any investigation of this functionality in a new issue: 
+* [Feature? Auto-Paste via the Obsidian Advanced URI Plugin?](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/issues/10)
+
 ---
 
 ### Query:
