@@ -13,3 +13,5 @@ The "Not-Yet-Published" (c~2026-Q2) Firefox extension (on GitHub): [firefox-obsi
 
 We should explore whether or not we could also leverage the capabilities of this extension.  Might be slick.
 
+We'll add a ZIP of this repo into [our collection of benchmark repos](https://github.com/vyzed-public/ext-FF_Tab-to-OMD-paste/tree/main/benchmark.repo-zips).
+
