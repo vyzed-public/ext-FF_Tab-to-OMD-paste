@@ -11,7 +11,7 @@ This issue is a follow-on from something I noticed in an earlier issue:
 
 The "Not-Yet-Published" (c~2026-Q2) Firefox extension (on GitHub): [firefox-obsidian-bookmark](https://github.com/patrikzudel/firefox-obsidian-bookmark) 
 
-...seems to take advantage of _**another**_ Obsidian Plugin: [obsidian-advanced-uri](https://github.com/Vinzent03/obsidian-advanced-uri)
+...seems to take advantage of _**another**_ Obsidian Plugin: **[obsidian-advanced-uri](https://github.com/Vinzent03/obsidian-advanced-uri)**
 
 
 We should explore whether or not we could also leverage the capabilities of this extension.  Might be slick.
