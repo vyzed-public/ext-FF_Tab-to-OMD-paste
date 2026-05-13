@@ -1,8 +1,9 @@
 # #9: Resubmit: As a personal private extension through AMO
 
-**State:** OPEN
+**State:** CLOSED
 **Author:** vyzed
 **Created:** 2026-05-09T23:52:04Z
+**Closed:** 2026-05-13T04:39:19Z
 
 ---
 
