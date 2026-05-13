@@ -11,3 +11,5 @@ The "Not-Yet-Published" (c~2026-Q2) Firefox extension (on GitHub): [firefox-obsi
 ...seems to take advantage of another Obsidian Plugin: [obsidian-advanced-uri](https://github.com/Vinzent03/obsidian-advanced-uri)
 
 
+We should explore whether or not we could also leverage the capabilities of this extension.  Might be slick.
+
